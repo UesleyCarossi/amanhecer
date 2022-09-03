@@ -1,8 +1,7 @@
-
-local assets =
+Assets =
 {
-	Asset("SOUNDPACKAGE", "resources/sounds/amanheceu.fev"),
-    Asset("SOUND", "resources/sounds/amanheceu.fsb")
+	Asset("SOUNDPACKAGE", "sound/amanheceu.fev"),
+    Asset("SOUND", "sound/amanheceu.fsb")
 }
 
-RemapSoundEvent("dontstarve/music/music_dawn_stinger", "amanheceu/amanheceu/amanheceu")
+RemapSoundEvent("dontstarve/music/music_dawn_stinger", "amanheceu/music/music_dawn_stinger")
